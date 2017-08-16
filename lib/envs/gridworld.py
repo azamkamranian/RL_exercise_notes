@@ -35,7 +35,7 @@ class GridworldEnv(discrete.DiscreteEnv):
 
         self.shape = shape
 
-        nS = np.prod(shape)
+        nS = np.prod(shape) ## prod 计算乘积
         nA = 4
 
         MAX_Y = shape[0]
